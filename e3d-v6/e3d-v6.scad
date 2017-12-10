@@ -100,10 +100,10 @@ module e3d_v6() {
         }
     }
 
-    translate([3.5, 0, 0]) nozzle();
-    translate([0.0, 0, 11.75]) block();
-    translate([3.5, 0, 19.6]) heatsink();
-    translate([3.5, 0, 12.6]) heatbreak();
+    translate([0, 0, 0]) nozzle();
+    translate([-3.5, 0, 11.75]) block();
+    translate([0, 0, 19.6]) heatsink();
+    translate([0, 0, 12.6]) heatbreak();
 }
 
 e3d_v6();
